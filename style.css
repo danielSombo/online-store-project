@@ -1,0 +1,61 @@
+/* Reset de base pour supprimer les marges et paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style de l'en-tête */
+.header {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+
+.navbar {
+    font-size: 1.2em;
+}
+
+/* Section Produits */
+.produits {
+    background-color: #f1f1f1;
+    padding: 50px 0;
+}
+
+.produits h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.card-title {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* Pied de page */
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Conception réactive */
+@media (max-width: 768px) {
+    .produits .row {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar-brand {
+        font-size: 1.1em;
+    }
+}

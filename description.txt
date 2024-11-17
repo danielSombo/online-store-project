@@ -1,0 +1,23 @@
+Brève description des choix de conception
+Lors du processus de développement de la page d'atterrissage pour la boutique en ligne, plusieurs choix de conception ont été faits pour assurer une interface attrayante, fonctionnelle et réactive.
+
+Structure de la page :
+
+En-tête : L'en-tête est conçu avec un menu de navigation fixe pour faciliter l'accès aux sections principales de la page (Produits, Contact). Le logo de la boutique est situé à gauche, tandis que les liens de navigation sont à droite pour une disposition claire.
+Section Produits : La section des produits est mise en valeur avec une grille de cartes. Chaque produit est présenté avec une image, un titre, une description succincte et un bouton d'achat. Cette structure aide à capter l'attention des visiteurs et à faciliter l'exploration des articles.
+Pied de page : Le pied de page contient des informations essentielles, comme les droits d'auteur, dans un format simple et discret, permettant de ne pas encombrer la page tout en offrant les informations nécessaires.
+Design réactif (responsive) :
+
+Bootstrap : L'utilisation de Bootstrap a été choisie pour sa capacité à créer rapidement des mises en page réactives. Le système de grille de Bootstrap permet de réorganiser les produits de manière optimale en fonction de la taille de l'écran, assurant une expérience utilisateur fluide sur les ordinateurs de bureau, tablettes et mobiles.
+Adaptation mobile : Des requêtes media ont été appliquées pour adapter le design des cartes de produits en fonction de la taille de l'écran. Sur les petits écrans (mobiles), les produits s'affichent en une seule colonne pour maximiser l'espace disponible et offrir une meilleure lisibilité.
+Accessibilité et navigation :
+
+Le menu de navigation dans l'en-tête est conçu pour être simple et fonctionnel. Il permet aux utilisateurs de naviguer facilement entre les différentes sections de la page.
+Le bouton "Acheter maintenant" est visible et bien placé sous chaque produit pour faciliter l'interaction et encourager l'achat.
+Esthétique et lisibilité :
+
+La palette de couleurs choisie est simple et moderne : un fond clair pour la section des produits et un pied de page sombre pour une hiérarchisation visuelle. Cette combinaison assure une lisibilité optimale tout en créant un contraste agréable.
+Les cartes de produits sont légèrement ombrées pour les distinguer des autres éléments de la page, tout en apportant un effet de profondeur.
+Optimisation des images :
+
+Les images des produits sont cruciales pour une boutique en ligne. Elles sont placées dans des cartes avec un aspect propre et organisé. Les tailles des images sont ajustées pour s'adapter correctement à la grille sans perdre en qualité.
